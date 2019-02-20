@@ -1,0 +1,5 @@
+# ========= Importing the dataset ========
+```{r}
+dataset <-  read.csv('Data.csv', header = TRUE, sep = ',')
+print (dataset)
+```
